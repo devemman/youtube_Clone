@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grid-container{
+    display: grid;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.header{
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10em;
+    /* border: 1px solid red; */
+    padding: 20px;
+}
+.head{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.grid-items{
+    display: grid;
+    grid-template-columns: 5% 95%;
+}
+.Aside{
+   
+    justify-content: space-between;
+    gap: 4em;
+    /* border: 1px solid blue; */
+    
+}
+.sub-header{
+    display: grid;
+    grid-template-rows: 10% 90%;
+    /* border: 1px solid green; */
+    
+}
+.top{
+    /* border: 1px solid yellow; */
+    padding: 0px 20px;
+}
+.main{
+    border: 1px solid orange;
+    
+}
+.bars{
+    background-color: #f2f2f2;
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.bars:hover{
+    background-color: #ffffff1a;
+}
+
+.bar{
+    width: 40px;
+    height: 40px;
+    
+    
+   
+}
+.bar1{
+    color: black;
+    text-decoration: none; 
+    
+    
+}
+.youtube-logo{
+    height: 20px;
+    width: 100px;
+    color: black;
+    display: flex;
+    align-items: self-start;
+    gap: 2px;
+    text-decoration: none;
+}
+.style-scope {
+    font-size: 7px;
+}
+.me-2{
+    width: 500px;
+    height: 50px;
+     
+}
+.me-3{
+    width: 70px;
+    height: 50px;
+    border: none;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-left-color: rgba(0, 0, 0, 0);
+    
+}
+.navbars{
+    display: flex;
+    gap: 0;
+}
+.fa-search{
+    color: black;
+}
+.microphone{
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50%;
+
+}
+.fa-microphone{
+    color: black;
+}
+.second{
+    display: flex;
+    gap: 0.5em;
+}
+.cam{
+    color: black;
+    text-decoration: none;
+}
+.create:hover{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+.third{
+    display: flex;
+    gap: 2em;
+    align-items: center;
+}
+
+.dropdown{
+    display: block; 
+    z-index: 1;
+    width: 230px; 
+    height: 659px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.dropdown:hover{
+    display: block;
+}
+.dropdowns{
+    margin: 5px 20px;
+    padding-bottom: 20px;
+}
+.dropdown-items{
+    margin: 1px 10px;
+    padding-bottom: 20px;
+   
+}
+.big{
+    height: 10px;
+    width: 10px;
+}    
+.text{
+
+}
+
+.down{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    color: black;
+    text-decoration: none;
+}
+.you{
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    gap: 0.5em;
+}
+.you:hover{
+    height: 40px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 15px; 
+}
+
+.down:hover{
+    height: 40px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 15px; 
+}
+.others{
+    margin: auto;
+    width: 210px;
+    padding-bottom: 10px;
+    gap: 5em;
+    border-bottom: 1px solid #00000010;
+}
+.top{
+    display: flex;
+    gap: 2em;
+}
+.top1{
+    color: black;
+    text-decoration: none; 
+    font-size: larger;
+    font-weight: 600;
+}
+.top1:hover{
+    color: #f2f2f2;
+}
+
+.but{
+    height: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    border: none;
+    
+}
+.but:hover{
+    background-color: black;
+}
+.down1{
+    height: 100px;
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+.down-border:hover{
+    background-color: #f2f2f2;
+    height: 90px;
+    width: 70px;
+    border-radius: 10px;
+        
+}
+.text2{
+    font-size: 10px;
+}
+.video{
+    width: 20px;
+}
+.card{
+    border: none; 
+    background-color: white;
+    padding: 10px;
+}
+.card:hover{
+    background-color: #f2f2f2;
+}
+.book{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+.card-body{
+    display: flex;
+    gap: 0.5em  ;
+
+}
+.fa-times{
+    color: black;
+    font-size: larger;
+}
+.pvideo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10em;
+}
+.vvideo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+}
+.text-short{
+    font-size: 30px;
+}
