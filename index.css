@@ -817,9 +817,7 @@
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
-    .bored{
-        width: 380px;
-    }
+    
     .top{
         width: 100%;
         left: 0;
@@ -874,9 +872,6 @@
         padding: 0;
     }
     .card-body{
-        width: 95%;
-    }
-    .bored{
         width: 95%;
     }
     .col{

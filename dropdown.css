@@ -62,7 +62,7 @@
     background-color: white;
 }
 .main{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     position: absolute;
     left: 80px;
     top: 170px;
